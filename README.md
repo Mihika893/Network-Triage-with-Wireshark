@@ -77,7 +77,7 @@ Right-click on this packet and follow the TCP stream associated with the suspici
 
 To extract and analyze this potential malware:
 1. Go to File > Export Objects > HTTP in Wireshark.
-2. Select the file associated with the suspicious hostname (e.g., www.ajaxmatters.com) and content type (e.g., application/x-msdownload). This file type is often used for DLLs and EXEs.
+2. Select the file associated with the suspicious hostname (e.g `www.ajaxmatters.com`) and content type (e.g., application/x-msdownload). This file type is often used for DLLs and EXEs.
 3. Save the extracted file.
 4. Open a terminal, navigate to the file location, and run the command `shasum -a 256 <file_name>` to calculate the SHA-256 hash, a unique identifier for the file.
 
